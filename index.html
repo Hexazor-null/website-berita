@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indonesia News - Berita Terkini</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-newspaper"></i> Indonesia News</h1>
+            </div>
+            <nav class="nav">
+                <a href="#beranda" class="nav-link active">Beranda</a>
+                <a href="#politik" class="nav-link">Politik</a>
+                <a href="#ekonomi" class="nav-link">Ekonomi</a>
+                <a href="#olahraga" class="nav-link">Olahraga</a>
+                <a href="#teknologi" class="nav-link">Teknologi</a>
+                <a href="#video" class="nav-link">Video</a>
+            </nav>
+            <div class="header-actions">
+                <i class="fas fa-search search-toggle"></i>
+                <i class="fas fa-bars menu-toggle"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay">
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Cari berita...">
+            <i class="fas fa-times close-search"></i>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Breaking News -->
+            <div class="breaking-news">
+                <div class="breaking-label">
+                    <i class="fas fa-bolt"></i> Breaking News
+                </div>
+                <marquee class="breaking-ticker">
+                    🚨 Presiden Jokowi Umumkan Kebijakan Baru Ekonomi | Badai Tropis Mendekati Jawa | Timnas Indonesia Menang Dramatis...
+                </marquee>
+            </div>
+
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&h=600&fit=crop" alt="Breaking News">
+                    <div class="hero-overlay">
+                        <span class="category-badge politics">POLITIK</span>
+                        <h2 class="hero-title">Presiden Jokowi Umumkan Kebijakan Ekonomi Baru untuk 2025</h2>
+                        <div class="hero-meta">
+                            <span class="time">2 jam yang lalu</span>
+                            <span class="author">Oleh: Ahmad Santoso</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- News Grid -->
+            <div class="news-grid">
+                <!-- Left Column - Featured -->
+                <div class="news-main">
+                    <article class="news-card featured">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=500&fit=crop" alt="Olahraga">
+                        <div class="card-content">
+                            <span class="category-badge sports">OLAHRAGA</span>
+                            <h3>Timnas Indonesia Kalahkan Vietnam 3-1 di Kualifikasi Piala Dunia</h3>
+                            <p>Garuda Muda tampil gemilang dengan hattrick dari striker muda berbakat...</p>
+                            <div class="card-meta">
+                                <span class="time">4 jam yang lalu</span>
+                                <span class="views"><i class="fas fa-eye"></i> 12.5K</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <img src="https://images.unsplash.com/photo-1558618047-3c8c76fdd7f5?w=400&h=300&fit=crop" alt="Ekonomi">
+                        <div class="card-content">
+                            <span class="category-badge economy">EKONOMI</span>
+                            <h3>IHSG Naik 2,5% Didorong Sektor Perbankan</h3>
+                            <p>Indeks Harga Saham Gabungan (IHSG) ditutup menguat...</p>
+                            <div class="card-meta">
+                                <span class="time">6 jam yang lalu</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Right Column - Latest News -->
+                <aside class="news-sidebar">
+                    <div class="section-title">
+                        <h3>Berita Terbaru</h3>
+                    </div>
+                    
+                    <article class="news-small">
+                        <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=150&h=100&fit=crop" alt="Teknologi">
+                        <div class="small-content">
+                            <span class="category-badge tech">TEKNO</span>
+                            <h4>Apple Rilis iOS 18 dengan Fitur AI Baru</h4>
+                            <span class="time">1 jam yang lalu</span>
+                        </div>
+                    </article>
+
+                    <article class="news-small">
+                        <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=150&h=100&fit=crop" alt="Kesehatan">
+                        <div class="small-content">
+                            <span class="category-badge health">KESEHATAN</span>
+                            <h4>Vaksin Baru COVID-19 Disetujui BPOM</h4>
+                            <span class="time">3 jam yang lalu</span>
+                        </div>
+                    </article>
+
+                    <article class="news-small">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=100&fit=crop" alt="Internasional">
+                        <div class="small-content">
+                            <span class="category-badge world">DUNIA</span>
+                            <h4>AS dan China Sepakati Gencatan Senjata Dagang</h4>
+                            <span class="time">5 jam yang lalu</span>
+                        </div>
+                    </article>
+                </aside>
+            </div>
+
+            <!-- Category Sections -->
+            <section class="category-section">
+                <div class="section-title">
+                    <h3>Politik</h3>
+                    <a href="#" class="more-link">Lihat Semua →</a>
+                </div>
+                <div class="news-row">
+                    <article class="news-card horizontal">
+                        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=300&h=200&fit=crop" alt="Politik">
+                        <div class="card-content">
+                            <span class="category-badge politics">POLITIK</span>
+                            <h3>DPR Sahkan UU Cipta Kerja Versi Terbaru</h3>
+                            <p>UU kontroversial ini disahkan dalam rapat paripurna...</p>
+                        </div>
+                    </article>
+                    <article class="news-card horizontal">
+                        <img src="https://images.unsplash.com/photo-1593062094038-9f1c9f467110?w=300&h=200&fit=crop" alt="Politik">
+                        <div class="card-content">
+                            <span class="category-badge politics">POLITIK</span>
+                            <h3>Ganjar Pranowo Umumkan Tim Sukses Pilkada</h3>
+                            <p>Kandidat kuat gubernur Jawa Tengah...</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Indonesia News</h4>
+                    <p>Sumber berita terpercaya 24 jam sehari, 7 hari seminggu.</p>
+                </div>
+                <div class="footer-section">
+                    <h5>Navigasi</h5>
+                    <a href="#">Beranda</a>
+                    <a href="#">Politik</a>
+                    <a href="#">Ekonomi</a>
+                    <a href="#">Olahraga</a>
+                </div>
+                <div class="footer-section">
+                    <h5>Ikuti Kami</h5>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Indonesia News. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
